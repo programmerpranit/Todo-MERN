@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
       <title>TODO APP</title>
       </Head>
-      <Navbar />
+      
 
     </div>
   )
