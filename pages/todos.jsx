@@ -2,7 +2,9 @@ import React from 'react'
 
 const Todos = () => {
   return (
-    <div>Todos</div>
+    <>
+      <h1>Todo list</h1>
+    </>
   )
 }
 

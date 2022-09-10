@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import React from 'react'
+import Todos from './todos'
 
 const Login = () => {
   return (
@@ -13,13 +15,15 @@ const Login = () => {
       <div className=''>
         <h3 className='text-slate-900 text-lg p-2 mb-1'>Password</h3>
         <input className='rounded-sm border-black border w-96 p-2 ml-2 mr-7' type="password" placeholder='Enter Password' />
-      </div>
+    </div>
     </div>
     <div className='justify-center flex  mb-5'>
-            <button class=" mt-4 bg-transparent text-slate-900 font-semibold  py-2 px-4 border border-black rounded">
+        <Link href={'/todos'}>
+          <button class=" mt-4 bg-transparent text-slate-900 font-semibold  py-2 px-4 border border-black rounded">
               Login
-            </button>
-          </div>
+          </button>
+        </Link>
+    </div>
   </div>
    
   </>

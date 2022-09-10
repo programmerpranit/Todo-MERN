@@ -16,7 +16,6 @@ const Navbar = () => {
             <Link href={'/signup'}>
             <button class="inline-flex items-center bg-gray-800 text-white border-0 py-1 px-3 mr-4 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Sign Up
                </button>
-
             </Link>
 
             
